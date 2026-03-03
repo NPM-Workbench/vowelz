@@ -2,7 +2,7 @@
 module.exports = {
   preset: "ts-jest/presets/js-with-ts-esm",
   testEnvironment: "jsdom",
-  roots: ["<rootDir>/src"],
+  roots: ["<rootDir>/src", "<rootDir>/tests"],
   testMatch: ["**/?(*.)+(spec|test).[tj]s?(x)"],
   moduleNameMapper: {
     "^(\\.{1,2}/.*)\\.js$": "$1"
