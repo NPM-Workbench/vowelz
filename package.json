@@ -1,0 +1,46 @@
+{
+  "name": "vowelz",
+  "description": "Vowelz is a lightweight javascript/typescript library designed for efficient and flexiable manipulation of vowels within strings",
+  "keywords": [
+    "open source",
+    "javascript library",
+    "string manipulation",
+    "vowels",
+    "text processing",
+    "string utilities",
+    "javascript regex"
+  ],
+  "license": "MIT",
+  "version": "2.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage --verbose"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "ts-jest": "^29.4.6",
+    "typescript": "^5.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NPM-Workbench/vowelz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NPM-Workbench/vowelz/issues"
+  },
+  "homepage": "https://github.com/NPM-Workbench/vowelz"
+}
