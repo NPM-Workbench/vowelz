@@ -8,4 +8,174 @@ A tiny, tested, type-safe vowel processing toolkit for modern JavaScript. Suppor
 3. Node.js version requirement is now 18+
 4. Flat named exports instead of instance methods
 
+### 📦 Installation
+```console
+npm install vowelz
+```
 
+### 🎒 Features
+1. Tiny and dependency-free
+2. Fully unit tested with Jest
+3. Type-safe (TypeScript support out of the box)
+4. Focused vowel manipulation utilities
+
+### 💻 Available Functions
+1. `countAllVowels`
+2. `getTotalCount`
+3. `getCountOfUniqueVowels`
+4. `extractAllVowelsFromString`
+5. `getPositionsOfVowels`
+6. `setAllVowelsToUpperCase`
+7. `setAllVowelsToLowerCase`
+8. `replaceVowelsWithCharacter`
+9. `removeAllVowelsFromString`
+10. `encryptAllVowels`
+
+### 🔤 Example Usage
+1. 📁 Count All Vowels
+```javascript
+/* Counts every vowel occurrence in a string. */
+import { countAllVowels } from "vowelz";
+const result = countAllVowels("hello");
+console.log(result);
+
+/*
+Expected Output:
+{
+  input: "hello",
+  count: {
+    a: 0,
+    e: 1,
+    i: 0,
+    o: 1,
+    u: 0
+  }
+}
+*/
+```
+2. 📁 Encrypt All Vowels
+```javascript
+import { encryptAllVowels } from "vowelz";
+const result = encryptAllVowels("hello");
+console.log(result)
+
+/*
+Expected Output:
+{ input: "hello", encrypted: "h3ll0" }
+*/
+```
+3. 📁 Extract All Vowels From String
+```javascript
+import { extractAllVowelsFromString } from "vowelz";
+const result = extractAllVowelsFromString("hello");
+console.log(result);
+
+/*
+Expected Ouput:
+{
+  input: "hello",
+  extract: ["e", "o"]
+}
+*/
+```
+4. 📁 Get Count Of Unique Vowels
+```javascript
+import { getCountOfUniqueVowels } from "vowelz";
+const result = getCountOfUniqueVowels("beautiful");
+console.log(result);
+
+/*
+Expected Output:
+{ input: "beautiful", unique: 4 }
+*/
+```
+5. 📁 Get Position Of Vowels
+```javascript
+import { getPositionsOfVowels } from "vowelz";
+const result = getPositionsOfVowels("hello");
+console.log(result);
+
+/*
+Expected Output:
+{
+  input: "hello",
+  positions: [1, 4]
+}
+*/
+```
+6. 📁 Get Total Count
+```javascript
+import { getTotalCountOfVowels } from "vowelz";
+const result = getTotalCountOfVowels("hello");
+console.log(result);
+
+/*
+Expected Output:
+{
+  input: "hello",
+  total: 2
+}
+*/
+```
+7. 📁 Remove All Vowels From String
+```javascript
+import { removeAllVowelsFromString } from "vowelz";
+const result = removeAllVowelsFromString("hello");
+console.log(result);
+
+/*
+Expected Output:
+{
+  input: "hello",
+  removed: "hll"
+}
+*/
+```
+8. 📁 Replace Vowels With Character
+```javascript
+import { replaceVowelsWithCharacter } from "vowelz";
+const result = replaceVowelsWithCharacter("hello", "*");
+console.log(result);
+
+/*
+Expected Output:
+{
+  input: "hello",
+  mutated: "h*ll*"
+}
+*/
+```
+9. 📁 Set All Vowels To Lower Case
+```javascript
+import { setAllVowelsToLowerCase } from "vowelz";
+const result = setAllVowelsToLowerCase("HELLO");
+console.log(result);
+
+/*
+Expected Output:
+{
+  input: "HELLO",
+  lower: "HeLLo"
+}
+*/
+```
+10. 📁 Set All Vowels To Upper Case
+```javascript
+import { setAllVowelsToUpperCase } from "vowelz";
+const result = setAllVowelsToUpperCase("hello");
+console.log(result);
+
+/*
+Expected Output:
+{
+  input: "hello",
+  upper: "hEllO"
+}
+*/
+```
+### 📘 Contributing
+Contributions, suggestions, and improvements are welcome.<br/>
+Feel free to open issues or pull requests.
+
+### ❤️ Support
+Like this project? Support it with a github star, it would mean a lot to me! Cheers and Happy Coding.
