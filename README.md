@@ -2,7 +2,6 @@
 ![npm](https://img.shields.io/npm/v/vowelz)
 ![downloads](https://img.shields.io/npm/dw/vowelz)
 ![license](https://img.shields.io/npm/l/vowelz)
-![NPM Unpacked Size](https://img.shields.io/npm/unpacked-size/vowelz)
 # Vowelz
 A tiny, tested, type-safe vowel processing toolkit for modern JavaScript. Supports ES6 style imports, Node.js 18+ with named exports. Fully unit tested with Jest.<br/>
 <br/>
