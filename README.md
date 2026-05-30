@@ -2,6 +2,8 @@
 ![npm](https://img.shields.io/npm/v/vowelz)
 ![downloads](https://img.shields.io/npm/dw/vowelz)
 ![license](https://img.shields.io/npm/l/vowelz)
+![Security Policy](https://img.shields.io/badge/security-policy-brightgreen)
+![npm_provenance](https://img.shields.io/badge/npm-provenance-brightgreen?logo=npm)
 ![NPM Unpacked Size](https://img.shields.io/npm/unpacked-size/vowelz)
 # Vowelz
 
@@ -254,6 +256,10 @@ All files                       |     100 |    97.67 |     100 |     100 |
 
 Contributions, suggestions, and improvements are welcome.<br/>
 Feel free to open issues or pull requests.
+
+### 🔒 Security & Privacy
+1. This package is open source and intended to provide reusable utilities for application development. It does not collect, store, transmit, sell, or share user data, and it does not include analytics, tracking, telemetry, cookies, local storage usage, backend services, or project-owned data collection mechanisms.
+2. For more details, including vulnerability reporting guidance and consumer security recommendations, please see the [Security Policy](https://github.com/NPM-Workbench/vowelz/security/policy).
 
 ### ❤️ Support
 
