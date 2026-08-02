@@ -5,6 +5,7 @@
 ![Security Policy](https://img.shields.io/badge/security-policy-brightgreen)
 ![npm_provenance](https://img.shields.io/badge/npm-provenance-brightgreen?logo=npm)
 ![NPM Unpacked Size](https://img.shields.io/npm/unpacked-size/vowelz)
+
 # Vowelz
 
 A tiny, tested, type-safe vowel processing toolkit for modern JavaScript. Supports ES6 style imports, Node.js 18+ with named exports. Fully unit tested with Jest.<br/>
@@ -32,7 +33,7 @@ npm install vowelz
 ### 💻 Available Functions
 
 1. `countAllVowels`
-2. `getTotalCount`
+2. `getTotalCountOfVowels`
 3. `getCountOfUniqueVowels`
 4. `extractAllVowelsFromString`
 5. `getPositionsOfVowels`
@@ -125,7 +126,7 @@ Expected Output:
 */
 ```
 
-6. 📁 Get Total Count
+6. 📁 Get Total Count of Vowelz
 
 ```javascript
 import { getTotalCountOfVowels } from 'vowelz';
@@ -258,6 +259,7 @@ Contributions, suggestions, and improvements are welcome.<br/>
 Feel free to open issues or pull requests.
 
 ### 🔒 Security & Privacy
+
 1. This package is open source and intended to provide reusable utilities for application development. It does not collect, store, transmit, sell, or share user data, and it does not include analytics, tracking, telemetry, cookies, local storage usage, backend services, or project-owned data collection mechanisms.
 2. For more details, including vulnerability reporting guidance and consumer security recommendations, please see the [Security Policy](https://github.com/NPM-Workbench/vowelz/security/policy).
 
